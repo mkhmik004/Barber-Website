@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --bg1: #000000;
+    --bg2: #06060b;
+    --body: #ffffff;
+    --brand: #431ed6;
+    --white: #fff;
+}
+body{
+    font-family: "Inter","Segeo UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+
+img.BBIT{
+    width:200px;
+    height:auto;
+}
+img{
+    width: 80%;
+}
+
+section#hero{
+    padding-top:40vh;
+    padding-bottom: 40vh;
+    margin-bottom: 8rem;
+}
+/*HERO*/
+#hero{
+    background: linear-gradient(#0c0c0c,#11142168),url(/images/FRONTPAGE.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+div p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*button*/
+.btn{
+    font-family:"Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0;
+    transition: all 0.4s ease;
+}
+.btn-brand{
+    padding: 16px 36px;
+}
+.btn-brand{
+    background-color: var(--brand);
+}
+.btn-brand:hover{
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-shop{
+    margin-left: 50px;
+    margin-right: 2px;
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-book{
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-book:hover{
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+.btn-shop:hover{
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+
+/*about us*/
+#About h6{
+    color: var(--brand);
+}
+
+#footer{
+
+}
