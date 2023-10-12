@@ -4,7 +4,7 @@
     --bg1: #000000;
     --bg2: #06060b;
     --body: #ffffff;
-    --brand: #ffffff;
+    --brand: #f4ba8c;
     --white: #fff;
 }
 body{
@@ -32,6 +32,9 @@ section#hero{
     padding-top:40vh;
     padding-bottom: 40vh;
     margin-bottom: 8rem;
+}
+section#Contacts{
+    padding-top: 6rem;
 }
 /*HERO*/
 #hero{
@@ -83,10 +86,7 @@ div p{
 }
 
 /*about us*/
+
 #About h6{
     color: var(--brand);
-}
-
-#footer{
-
 }
