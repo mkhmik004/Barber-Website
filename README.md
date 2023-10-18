@@ -1,2 +1,5 @@
 # Barber-Website
-barber website built with Bootstrap 
+Freelance work for Ramad Barbershop (BBIT)
+web applicatication uses Bootstrap which makes it mobile responsive
+linked to Client's Takealot shop
+embeded the client's Bussiness instagram
