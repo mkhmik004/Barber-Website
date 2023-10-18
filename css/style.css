@@ -7,6 +7,7 @@
     --brand: #f4ba8c;
     --white: #fff;
 }
+
 body{
     font-family: "Inter","Segeo UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--body);
@@ -28,14 +29,15 @@ img{
     width: 80%;
 }
 
-section#hero{
+section#hero {
     padding-top:40vh;
-    padding-bottom: 40vh;
-    margin-bottom: 8rem;
+    height: 100vh;
 }
-section#Contacts{
-    padding-top: 6rem;
+section#Contact,section#About, section#Services{
+    padding-top: 7rem;
 }
+
+
 /*HERO*/
 #hero{
     background: linear-gradient(#0c0c0c,#11142168),url(/images/FRONTPAGE.jpg);
@@ -87,6 +89,6 @@ div p{
 
 /*about us*/
 
-#About h6{
+#About h6,#Services h6, strong, h5{
     color: var(--brand);
 }
