@@ -89,6 +89,10 @@ div p{
 
 /*about us*/
 
-#About h6,#Services h6, strong, h5{
+#About h6,#Services h6, strong, h5,h6{
     color: var(--brand);
+}
+.icon {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
 }

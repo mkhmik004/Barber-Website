@@ -10,9 +10,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="remixicons/fonts/remixicon.css">
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- jQuery and Bootstrap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <title>BBIT</title>
 </head>
+
 
 <body id="Home" data-bs-spy="scroll" data-bs-target=".navbar">
 
@@ -35,7 +40,7 @@
                     <a class="nav-link" href="#Services">Services</a>
                 </li>
                 <li id="nav-item">
-                    <a class="nav-link " href="https://www.instagram.com/bbit_ramad/" target="_blank  ">Portfolio</a>
+                    <a class="nav-link " href="#portfolio">Portfolio</a>
                 </li>
                 <li id="nav-item">
                     <a class="nav-link" href="#Contacts">Contact</a>
@@ -44,7 +49,7 @@
                     <a href="https://www.takealot.com/all?filter=Brand:Apple" target="_blank" class="btn btn-shop">Shop</a>
                 </li>
                 <li id="nav-item">
-                    <a href="#Contacts" class="btn btn-book">Book Now</a>
+                    <a href="https://wa.me/+27670238197" class="btn btn-book">Book Now</a>
                 </li>
             </div>
           </div>
@@ -60,7 +65,7 @@
                 <div class="col-lg6">
                     <h1 class="display-4">Welcome to Hands of Ramad</h1>
                     <p>Your trusted destination for grooming hair and beard.</p>
-                    <a href="#" class="btn btn-brand">Get in Touch</a>
+                    <a href="https://wa.me/+27670238197" class="btn btn-brand">Get in Touch</a>
                 </div>
             </div>
         </div>
@@ -86,33 +91,63 @@
   
     <!-- // SERVICES -->
 <section id="Services">
+   <div class="d-flex justify-content-center">
+    <div id="serviceCarousel" class="carousel slide" data-ride="carousel">
     <div class="container">
-        <div class="row">
-            <div class="col-lg text-center">
-                    <h6>About</h6>
-                    <h1>Our Services</h1>
-                    <p>You can add a paragraph here.</p>           
+        <h6 class="col-lg text-center">About</h6>
+        <h2 class="text-center mt-4">Our Services</h2>
+        <div id="serviceCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="col-md-4 mx-auto">
+                        <div class="card mb-4">
+                            <img src="/images/File 3.JPG" class="card-img-top mx-auto" alt="Service 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Blade Fades</h5>
+                                <p class="card-text">A classic barber fade.</p>
+                                <p class="card-text"><strong>Price: R100</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4 mx-auto">
+                        <div class="card mb-4">
+                            <img src="/images/File 2.JPG" class="card-img-top" alt="Service 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Brush-cuts</h5>
+                                <p class="card-text">Short and neat haircuts.</p>
+                                <p class="card-text"><strong>Price: R100</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4 text-center mx-auto">
+                        <div class="card mb-4">
+                            <img src="/images/File4.JPG" class="card-img-top" alt="Service 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Cheese-kop</h5>
+                                <p class="card-text">A unique style for the bold.</p>
+                                <p class="card-text"><strong>Price: R50</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <img src="/images/File4.JPG">
-                <h3>Hair-cut</h3>
-               
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <img src="/images/File 2.JPG">
-                <h3>Beard Trim</h3>
-                
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <img src="/images/File 3.JPG">
-                <h3 >Shaving</h3>
-                
-            </div>
+            <a class="carousel-control-prev" href="#serviceCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#serviceCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
     
+   
         
     
     <div class="container mt-4">
@@ -125,20 +160,33 @@
             </div>
         </div>
     </div>
-    
-    
-
 </section>
     <!-- SERVICES -->
 </section>
 <!-- // PORTFOLIO -->
 <section id="portfolio">
     <div class="container">
-        <div id="instagram-feed" class="mx-auto"> <!-- Center the content -->
-            <a href="https://www.instagram.com/bbit_ramad/"><img src=""></a>
-
+        <div class="row">
+            <div class="col-12 text-center">
+                <h6>More About</h6>
+                <h2>My Portfolio Visit</h2>
+                <div class="row align-items-center"> <!-- Center the content vertically -->
+                    <div class="col-6 col-md-3">
+                        <a href="https://www.instagram.com/bbit_ramad/">
+                            <img src="/images/Instagram_Glyph_Gradient.svg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="https://www.tiktok.com/@bbit_ramad_0h?_t=8gfRcTIKbR8&_r=1" target="_blank">
+                            <img src="/images/TikTok-logo-RGB-Horizontal-white.png" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>  
+    </div>
+    
+    
 </section>
 <!-- PORTFOLIO  -->
 
@@ -148,7 +196,10 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-4">
                     <h2 class="text-center">Contact Information</h2>
-                    <p><strong>Phone:</strong> 0670238197 or 0678130430</p>
+                    <div>
+                        <a href="https://wa.me/+27670238197"><img src="/images/Digital_Glyph_White.svg" > </a href="">
+                    </div>
+                    
                     
                 </div>
                 
@@ -177,7 +228,8 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-    <script type="text/javascript" src="IG-embed.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 </body>
 
