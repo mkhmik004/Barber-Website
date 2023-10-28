@@ -22,7 +22,7 @@
 <body id="Home" data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-black">
         <div class="container">
           <a class="navbar-brand" ><img class="BBIT"src="images/BBIT.png" ></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@
                     <a href="https://www.takealot.com/all?filter=Brand:Apple" target="_blank" class="btn btn-shop">Shop</a>
                 </li>
                 <li id="nav-item">
-                    <a href="https://wa.me/+27670238197" class="btn btn-book">Book Now</a>
+                    <a href="https://wa.me/+27670238197" class="btn btn-book" target="_blank">Book Now</a>
                 </li>
             </div>
           </div>
@@ -65,7 +65,7 @@
                 <div class="col-lg6">
                     <h1 class="display-4">Welcome to Hands of Ramad</h1>
                     <p>Your trusted destination for grooming hair and beard.</p>
-                    <a href="https://wa.me/+27670238197" class="btn btn-brand">Get in Touch</a>
+                    <a href="https://wa.me/+27670238197" target="_blank" class="btn btn-brand">Get in Touch</a>
                 </div>
             </div>
         </div>
@@ -154,8 +154,8 @@
         <div class="row justify-content-center text-center">
             <div class="col-md-6">
                 <h2>Working Hours</h2>
-                <p><strong>Monday - Friday:</strong> 10:00 AM - 7:00 PM</p>
-                <p><strong>Saturday:</strong> 10:00 AM - 5:00 PM</p>
+                <p><strong>Monday - Wednesday:</strong> 09:00 AM - 20:00 </p>
+                <p><strong> Thurday-Saturday:</strong> 09:00 AM - 21:00</p>
                 <!-- Add any additional information you need -->
             </div>
         </div>
@@ -170,24 +170,26 @@
             <div class="col-12 text-center">
                 <h6>More About</h6>
                 <h2>My Portfolio Visit</h2>
-                <div class="row align-items-center"> <!-- Center the content vertically -->
-                    <div class="col-6 col-md-3">
+                <div class="row align-items-center justify-content-center"> <!-- Center the content both horizontally and vertically -->
+                    <div class="col-6 col-md-3 text-center">
                         <a href="https://www.instagram.com/bbit_ramad/">
-                            <img src="/images/Instagram_Glyph_Gradient.svg" class="img-fluid">
+                            
+                            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoMTAuNjY2NjcsMTAuNjY2NjcpIj48cGF0aCBkPSJNOCwzYy0yLjc1NywwIC01LDIuMjQzIC01LDV2OGMwLDIuNzU3IDIuMjQzLDUgNSw1aDhjMi43NTcsMCA1LC0yLjI0MyA1LC01di04YzAsLTIuNzU3IC0yLjI0MywtNSAtNSwtNXpNOCw1aDhjMS42NTQsMCAzLDEuMzQ2IDMsM3Y4YzAsMS42NTQgLTEuMzQ2LDMgLTMsM2gtOGMtMS42NTQsMCAtMywtMS4zNDYgLTMsLTN2LThjMCwtMS42NTQgMS4zNDYsLTMgMywtM3pNMTcsNmMtMC41NTIyOCwwIC0xLDAuNDQ3NzIgLTEsMWMwLDAuNTUyMjggMC40NDc3MiwxIDEsMWMwLjU1MjI4LDAgMSwtMC40NDc3MiAxLC0xYzAsLTAuNTUyMjggLTAuNDQ3NzIsLTEgLTEsLTF6TTEyLDdjLTIuNzU3LDAgLTUsMi4yNDMgLTUsNWMwLDIuNzU3IDIuMjQzLDUgNSw1YzIuNzU3LDAgNSwtMi4yNDMgNSwtNWMwLC0yLjc1NyAtMi4yNDMsLTUgLTUsLTV6TTEyLDljMS42NTQsMCAzLDEuMzQ2IDMsM2MwLDEuNjU0IC0xLjM0NiwzIC0zLDNjLTEuNjU0LDAgLTMsLTEuMzQ2IC0zLC0zYzAsLTEuNjU0IDEuMzQ2LC0zIDMsLTN6Ij48L3BhdGg+PC9nPjwvZz4KPC9zdmc+"/>
+
                         </a>
                     </div>
-                    <div class="col-6 col-md-3">
+                    <div class="col-6 col-md-3 text-center">
                         <a href="https://www.tiktok.com/@bbit_ramad_0h?_t=8gfRcTIKbR8&_r=1" target="_blank">
-                            <img src="/images/TikTok-logo-RGB-Horizontal-white.png" class="img-fluid">
+                            <img src="/images/TikTok-logo-RGB-Horizontal-white.png" class="img-fluid smaller-icon" alt="TikTok Icon">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-    
 </section>
+
+
 <!-- PORTFOLIO  -->
 
     <!-- BOOKING -->
@@ -196,8 +198,8 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-4">
                     <h2 class="text-center">Contact Information</h2>
-                    <div>
-                        <a href="https://wa.me/+27670238197"><img src="/images/Digital_Glyph_White.svg" > </a href="">
+                    <div class="watsapp">
+                        <a  href="https://wa.me/+27670238197"><img src="/images/Digital_Glyph_White.svg" > </a>
                     </div>
                     
                     

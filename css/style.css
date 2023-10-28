@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: "Inter","Segeo UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Inter","Segeo UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*palm angel font*/
     color: var(--body);
     line-height: 1.8;
     background-color: var(--bg1);
@@ -33,7 +33,7 @@ section#hero {
     padding-top:40vh;
     height: 100vh;
 }
-section#Contact,section#About, section#Services{
+section#Contact,section#About, section#Services, section#portfolio, section#Contacts{
     padding-top: 7rem;
 }
 
@@ -93,6 +93,16 @@ div p{
     color: var(--brand);
 }
 .icon {
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
+    width: auto; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+}
+.smaller-icon,section#Contacts img {
+    width:90px;
+    margin-top:100px;
+    height: auto; /* Adjust the size as needed */
+}
+section#Contacts img{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 150px;
 }
